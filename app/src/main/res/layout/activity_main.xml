@@ -22,13 +22,14 @@
             android:id="@+id/btn_02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="跳转默认" />
+            android:text="跳转没有title的悬浮"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/btn_03"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="跳转默认" />
+            android:text="跳转有title的悬浮" />
     </LinearLayout>
 
 </RelativeLayout>

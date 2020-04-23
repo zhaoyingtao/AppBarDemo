@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_02).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(MainActivity.this, AppBarTwoActivity.class));
             }
         });
         findViewById(R.id.btn_03).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(MainActivity.this, AppBarThreeActivity.class));
             }
         });
 
